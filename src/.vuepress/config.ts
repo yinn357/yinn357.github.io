@@ -1,5 +1,7 @@
 import { getDirname, path } from "vuepress/utils";
 import { defineUserConfig } from "vuepress";
+import { baiduAnalyticsPlugin } from '@vuepress/plugin-baidu-analytics'
+
 
 import theme from "./theme.js";
 
@@ -13,6 +15,14 @@ export default defineUserConfig({
   description: "Yinn-一个小废物的博客",
 
   theme,
+
+
+  plugins:[
+    baiduAnalyticsPlugin({
+      // 配置项
+      id: "8aa9f9ebf561dcf7d938929e2786f54f"
+    }),
+  ],
 
   alias: {
     "@theme-hope/modules/blog/components/BlogHero": path.resolve(
