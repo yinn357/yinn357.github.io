@@ -6,6 +6,7 @@ import { baiduAnalyticsPlugin } from '@vuepress/plugin-baidu-analytics'
 import theme from "./theme.js";
 
 const __dirname = getDirname(import.meta.url);
+const SrcPath = path.resolve(__dirname, '../');
 
 export default defineUserConfig({
   base: "/",
@@ -26,6 +27,10 @@ export default defineUserConfig({
   ],
 
   alias: {
+    '@components': path.resolve(__dirname, 'components'),
+    '@src': SrcPath,
+    
+    // 设置别名 覆盖默认首页
     "@theme-hope/modules/blog/components/BlogHero": path.resolve(
       __dirname,
       "./components/BlogHero.vue",

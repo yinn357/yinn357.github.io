@@ -104,7 +104,26 @@ export default hopeTheme({
     // 搜索
     searchPro:{
       indexContent: true,
-      autoSuggestions: true
+      autoSuggestions: true,
+      // 为分类和标签添加索引
+      customFields: [
+        {
+          getter(page: any) {
+            return page.frontmatter.category;
+          },
+          formatter: {
+            '/': '分类：$content',
+          },
+        },
+        {
+          getter(page: any) {
+            return page.frontmatter.tag;
+          },
+          formatter: {
+            '/': '标签：$content',
+          },
+        },
+      ],
     },
 
     // 启用之前需安装 @waline/client
@@ -115,7 +134,7 @@ export default hopeTheme({
     },
 
     components: {
-      components: ["Badge", "VPCard"],
+      components: ["Badge", "VPCard", 'BiliBili', 'PDF'],
     },
 
     // 此处开启了很多功能用于演示，你应仅保留用到的功能。
