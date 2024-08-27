@@ -3,7 +3,7 @@ home: true
 layout: BlogHome
 icon: home
 title: 博客主页
-heroImage: ./logo.svg
+heroImage: ./info-avatar.png
 heroText: Yinn
 heroFullScreen: true
 # tagline: 你可以在这里放置你的口号与标语

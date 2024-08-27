@@ -38,7 +38,7 @@ export default hopeTheme({
 
   // 博客相关
   blog: {
-    avatar:"",
+    avatar:"./info-avatar.png",
     description: "一个闲散的开发者",
     // intro: "/intro.html",
     medias: {
