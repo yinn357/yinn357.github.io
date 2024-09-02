@@ -2,7 +2,7 @@
 home: true
 layout: BlogHome
 icon: home
-title: 博客主页
+title: 主页
 # heroImage: ./info-avatar.png
 bgImage: https://pic.imgdb.cn/item/66d513b3d9c307b7e960b935.jpg
 bgImageDark: https://pic.imgdb.cn/item/66d513d7d9c307b7e960cae3.jpg
