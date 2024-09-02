@@ -14,6 +14,4 @@ projects:
     name: 免费图床
     desc: 基于 Telegraph 的图片上传工具
     link: https://img.yinn.eu.org
-
-footer: Yinn
 ---
