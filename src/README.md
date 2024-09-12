@@ -14,4 +14,12 @@ projects:
     name: 免费图床
     desc: 基于 Telegraph 的图片上传工具
     link: https://img.yinn.eu.org
+  - icon: alist
+    name: Alist
+    desc: 私有 Alist 暂不开放
+    link: https://alist.yinn.eu.org
+  - icon: alist
+    name: 小雅
+    desc: 小雅 Alist 影视库
+    link: https://xiaoya.yinn.eu.org
 ---
