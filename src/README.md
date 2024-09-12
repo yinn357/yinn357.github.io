@@ -18,7 +18,7 @@ projects:
     name: Alist
     desc: 私有 Alist 暂不开放
     link: https://alist.yinn.eu.org
-  - icon: alist
+  - icon: yingshi
     name: 小雅
     desc: 小雅 Alist 影视库
     link: https://xiaoya.yinn.eu.org

@@ -11,7 +11,7 @@ export default hopeTheme({
     url: "https://yinn.eu.org",
   },
 
-  iconAssets: "//at.alicdn.com/t/c/font_4668311_3qk5yvt84cu.css",
+  iconAssets: "//at.alicdn.com/t/c/font_4668311_hvv8t6vxqeq.css",
 
   logo: "./logo.svg",
 
